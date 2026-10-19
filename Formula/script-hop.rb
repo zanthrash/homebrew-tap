@@ -2,28 +2,28 @@
 class ScriptHop < Formula
   desc "Fuzzy, frecency-ranked picker for your project's scripts and tasks"
   homepage "https://github.com/zanthrash/script-hop"
-  version "0.8.0"
+  version "0.9.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/zanthrash/script-hop/releases/download/v0.8.0/hop-v0.8.0-darwin-arm64.tar.gz"
-      sha256 "15c46f692f805391c185a8426c1cf359dd2e7edfca99439d3b57b6723c35a19a"
+      url "https://github.com/zanthrash/script-hop/releases/download/v0.9.0/hop-v0.9.0-darwin-arm64.tar.gz"
+      sha256 "1f37392d66e0fc4ab303019c620bf6345bf2c57a20756f5476a5d1a94345bd8c"
     end
     on_intel do
-      url "https://github.com/zanthrash/script-hop/releases/download/v0.8.0/hop-v0.8.0-darwin-x64.tar.gz"
-      sha256 "5e4913896db16e2c45112f92bacdb00463bab0d81c0decc5c139093a0a292ba4"
+      url "https://github.com/zanthrash/script-hop/releases/download/v0.9.0/hop-v0.9.0-darwin-x64.tar.gz"
+      sha256 "7f13894a26c0f4fa72ec6895ca6f45ea99164ec1aa3db1e557268d856528d810"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/zanthrash/script-hop/releases/download/v0.8.0/hop-v0.8.0-linux-arm64.tar.gz"
-      sha256 "9101448a3b219ae85ab688b06d9f64bfc6012645a0cf0800f4f9afb76ca74dce"
+      url "https://github.com/zanthrash/script-hop/releases/download/v0.9.0/hop-v0.9.0-linux-arm64.tar.gz"
+      sha256 "7a6d51abb848a960b6f939224f25fad187c01d74f556016168b295910b6f85ae"
     end
     on_intel do
-      url "https://github.com/zanthrash/script-hop/releases/download/v0.8.0/hop-v0.8.0-linux-x64.tar.gz"
-      sha256 "72e010fc60a8253462aa858c3a9d744c1c2aa5e175bd1364c9d02126c3b97e71"
+      url "https://github.com/zanthrash/script-hop/releases/download/v0.9.0/hop-v0.9.0-linux-x64.tar.gz"
+      sha256 "c4a63f5010aa8ec0e83f79771a59fba2c6ff6423e0cb06195f69c22953ca94c8"
     end
   end
 
